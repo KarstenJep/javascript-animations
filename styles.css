@@ -50,7 +50,6 @@ body {
 #cloud-four {
   width: 24%;
   bottom: 40%;
-  /* margin-right: 40%; */
   left: 15%;
   opacity: 70%;
 }
@@ -70,19 +69,39 @@ body {
   opacity: 70%;
 }
 
-/* #javascript {
-  width: 5%;
-  bottom: 30%;
-  left: 20%;
+#birds {
+  width: 10%;
+  bottom: 10%;
+  left: 10%;
 }
 
-#react {
-  width: 5%;
-  bottom: 30%;
-  left: 26%;
+#github {
+  width: 4%;
+  bottom: 72%;
+  left: 48%;
+  border-radius: 25px;
+  padding: 1px;
+  box-shadow: 2px 2px 4px black, 4px 4px 4px rgb(247, 151, 6);
 }
 
-#graphql {
+#linkedin {
+  width: 4%;
+  bottom: 72%;
+  left: 40%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px black, 4px 4px 4px rgb(247, 151, 6);
+}
+
+#mail {
+  width: 5%;
+  bottom: 72%;
+  left: 56%;
+  padding: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px black, 4px 4px 4px rgb(247, 151, 6);
+}
+
+/* #graphql {
   width: 5%;
   bottom: 30%;
   left: 32%;
@@ -98,14 +117,24 @@ body {
 
 .about-me {
   height: 600px;
-  background-color: #69D31D;
+  background-image: linear-gradient(#168f06,#49f7b4);
   padding: 5px;
   display: flex;
   justify-content: center;
 }
 
-h1 {
+#name {
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-shadow: 2px 2px 4px black, 4px 4px 4px rgb(247, 151, 6);
+
+}
+
+/* .header {
   color: white;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 60px;
-}
+  font-size: 30px;
+  border: green solid 2px;
+} */
+/* #4ff749 */
